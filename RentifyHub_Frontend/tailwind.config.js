@@ -6,24 +6,18 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
-        "" : "",
-        "blue" : "3D52A0",
-        "blue1" : "7091E6",
-        "grey" : "8697C4",
-        "grey1" : "ADBBDA",
-        "pink" : "EDE8F5",
-        "red" : "", 
+      colors: {
+        "blue": "#3D52A0", // Provide hex code for blue
+        "blue1": "#7091E6", // Provide hex code for blue1
+        "grey": "#8697C4", // Provide hex code for grey
+        "grey1": "#ADBBDA", // Provide hex code for grey1
+        "pink": "#EDE8F5", // Your pink color is good
+        "red": "#FF0000", // Provide hex code for red (example red color)
       },
-      /*
       fontFamily: {
-        "primary" : ['IBM Plex Sans', 'serif']
-
-      }
-      */
-
+        "primary": ['IBM Plex Sans', 'serif'],
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
-
