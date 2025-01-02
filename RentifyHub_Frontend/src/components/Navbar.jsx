@@ -123,7 +123,7 @@ const Navbar = () => {
           </div>
 
           <button className="btn flex items-center gap-3 rounded-full px-8 py-3 bg-green text-white text-lg">
-             Login
+             Login Now
           </button>
         </div>
       </div>
